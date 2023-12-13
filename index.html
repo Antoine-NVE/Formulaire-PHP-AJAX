@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Formulaire de contact</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <h1 class="blanc">Formulaire de contact</h1>
+  <form method="post" id="formulaire">
+    <label for="nom" class="blanc">Nom <span class="rouge" id="erreur_nom"></span></label>
+    <input type="text" name="nom" id="nom">
+
+    <label for="prenom" class="blanc">Prénom <span class="rouge" id="erreur_prenom"></span></label>
+    <input type="text" name="prenom" id="prenom">
+
+    <label for="email" class="blanc">Email <span class="rouge" id="erreur_email"></span></label>
+    <input type="text" name="email" id="email">
+
+    <label for="message" class="blanc">Message <span class="rouge" id="erreur_message"></span></label>
+    <textarea name="message" id="message" rows="5"></textarea>
+
+    <div>
+      <button type="reset" id="bouton_annuler">Annuler</button>
+      <button type="submit" id="bouton_envoyer" class="blanc">Envoyer</button>
+      <p id="message_global"></p>
+    </div>
+  </form>
+</body>
+
+</html>

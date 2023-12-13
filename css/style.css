@@ -1,0 +1,63 @@
+body {
+  background: rgb(39, 43, 46);
+}
+
+h1 {
+  text-align: center;
+}
+
+.blanc {
+  color: white;
+}
+
+form {
+  max-width: 25rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.vert {
+  color: green;
+}
+
+#message_global {
+  margin-left: 0.5rem;
+  display: inline;
+}
+
+.rouge {
+  color: red;
+}
+
+label {
+  cursor: pointer;
+}
+
+label span {
+  display: none;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(1px, 1px);
+}
+
+button.blanc {
+  background: rgb(0, 138, 88);
+}
